@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat 2020</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+</head>
+<body>
+
+    <div id="form">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="text" name="message" id="message" placeholder="Message">
+        <button onclick="sendChatMessage()">Send</button>
+    </div>
+
+    <div id="status">
+
+    </div>
+
+    <div id="chat">
+
+    </div>
+    
+</body>
+</html>
